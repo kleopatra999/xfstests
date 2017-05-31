@@ -122,11 +122,7 @@ _acl_list()
 {
     _file1=$1
 
-    if [ $HOSTOS = "IRIX" ]; then
-	ls -dD $_file1 | _acl_filter_id
-    else 
-        chacl -l $_file1 | _acl_filter_id
-    fi
+    chacl -l $_file1 | _acl_filter_id
 }
 
 # create an ACL with n ACEs in it
