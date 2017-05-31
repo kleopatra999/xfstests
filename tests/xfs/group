@@ -54,8 +54,6 @@
 054 auto quick
 055 dump ioctl remote tape
 056 dump ioctl auto quick
-057 acl auto
-058 acl auto
 059 dump ioctl auto quick
 060 dump ioctl auto quick
 061 dump ioctl auto quick
@@ -92,7 +90,6 @@
 092 other auto quick
 093 fuzzers
 094 metadata dir ioctl auto
-095 log v2log auto
 096 mkfs v2log auto quick
 097 fuzzers
 098 fuzzers
@@ -111,8 +108,6 @@
 111 ioctl
 112 fuzzers
 113 fuzzers
-114 parent attr stress
-115 parent attr
 116 quota auto quick
 117 fuzzers
 118 auto quick fsr dangerous

@@ -95,13 +95,10 @@
 090 metadata auto quick
 091 rw auto quick
 092 auto quick prealloc
-093 attr cap udf auto
 094 auto quick prealloc
 095 auto rw stress
 096 auto prealloc quick zero
-097 udf auto
 098 auto quick metadata
-099 udf auto
 100 udf auto
 101 auto quick metadata
 102 auto rw
